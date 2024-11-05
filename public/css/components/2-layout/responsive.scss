@@ -1,0 +1,161 @@
+// 1450px
+@include xxxxlg-xxxxxlg {
+  // @include hero-xxxxlg-xxxxxlg;
+}
+// 1380px
+@include xxxlg-xxxxlg {
+  .button {
+    &.secondary {
+      padding: 14px 30px;
+    }
+  }
+  @include header-xxxlg-xxxxlg;
+  @include nav-xxxlg-xxxxlg;
+  @include features-xxxlg-xxxxlg;
+}
+// 1250px
+@include xlg-xxlg-extra {
+//   @include hero-xlg-xxlg-extra;
+}
+// 1180px
+@include xlg-xxlg {
+  h1 {
+    font-size: 80px;
+    line-height: 130%;
+  }
+  @include features-xlg-xxlg;
+}
+// 1024px
+@include lg-xlg {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  @include header-lg-xlg;
+  @include nav-lg-xlg;
+  @include hero-lg-xlg;
+  @include experience-lg-xlg;
+  @include features-lg-xlg;
+  @include footer-lg-xlg;
+}
+// 930px
+@include md-lg {
+  h2 {
+    font-size: 50px;
+    line-height: 65px;
+  }
+  p {
+    &.ex {
+      font-size: 12px;
+    }
+  }
+  @include experience-md-lg;
+  @include faq-md-lg;
+  @include testimonials-md-lg;
+  @include footer-md-lg;
+}
+// 750px
+@include sm-md {
+  .auto__container {
+    padding: 0 35px;
+  }
+  h1 {
+    font-size: 54px;
+    span {
+      width: 32px;
+      height: 32px;
+      &.sm {
+        width: 23px;
+        height: 23px;
+      }
+    }
+  }
+  h3 {
+    font-size: 44px;
+    line-height: 107%;
+  }
+  h2 {
+    font-size: 42px;
+    line-height: 125%;
+  }
+
+  .button {
+    &.primary {
+      font-size: 28px;
+      line-height: 130%;
+      padding: 8px 48px;
+    }
+    &.sm {
+      padding: 8px 32px;
+    }
+  }
+  @include about-sm-md;
+  @include experience-sm-md;
+  @include features-sm-md;
+  @include faq-sm-md;
+  @include footer-sm-md;
+}
+// 650px
+@include sm-md-extra {
+  h1 {
+    font-size: 44px;
+  }
+  @include hero-sm-md-extra;
+  @include about-sm-md-extra;
+  @include features-sm-md-extra;
+}
+// 540px
+@include xsm-sm {
+  .auto__container {
+    padding: 0 20px;
+  }
+  h1 {
+    font-size: 38px;
+  }
+  h3 {
+    font-size: 33px;
+    line-height: 36px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h4 {
+    font-size: 36px;
+  }
+  h6 {
+    &.sm {
+      font-size: 22px;
+      line-height: 25px;
+    }
+  }
+  .button {
+    &.primary {
+      font-size: 22px;
+      padding: 8px 32px;
+    }
+    &.sm {
+      font-size: 20px;
+      padding: 8px 20px;
+    }
+  }
+  @include header-xsm-sm;
+  @include nav-xsm-sm;
+
+  @include hero-xsm-sm;
+  @include about-xsm-sm;
+  @include experience-xsm-sm;
+  @include features-xsm-sm;
+  @include faq-xsm-sm;
+  @include testimonials-xsm-sm;
+  @include footer-xsm-sm;
+}
+// 440px
+@include xxsm-xsm {
+  h2 {
+    font-size: 23px;
+  }
+//   @include hero-xxsm-xsm;
+}
+// 390px
+@include xxxsm-xxsm {
+  // @include hero-xxxsm-xxsm;
+}

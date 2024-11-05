@@ -1,0 +1,129 @@
+h1 {
+  font-weight: 400;
+  font-size: 86px;
+  line-height: 112px;
+  text-align: center;
+  span {
+    width: 56px;
+    height: 56px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    &.sm {
+      width: 44px;
+      height: 44px;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 62px;
+  line-height: 81px;
+}
+
+h3 {
+  font-family: $antique;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 60px;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 63px;
+}
+
+h5 {
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 55px;
+}
+
+h6 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  &.sm {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 35px;
+  }
+}
+p {
+  &.big {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  &.sm {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+  }
+  &.ex {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+.main {
+  overflow: hidden;
+}
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $mainFont;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  padding: 8px 64px;
+
+  &.primary {
+    color: $white;
+    background-color: $primary;
+    border: 2px solid $black;
+  }
+  &.sm {
+    padding: 8px 44px;
+  }
+  &.secondary {
+    font-family: $inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #edfbfb;
+    padding: 14px 44px;
+    background: #2b79bd;
+    border-radius: 35px;
+  }
+  &.uniq {
+    font-family: $inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #edfbfb;
+    padding: 6px 10px;
+    background: #211f5f;
+    border-radius: 35px;
+  }
+}
+.input {
+  display: flex;
+  input {
+    width: 100%;
+    height: 100%;
+    font-family: $inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #404040;
+    background-color: $white;
+    border-radius: 4px;
+    padding: 8px 12px;
+  }
+}
